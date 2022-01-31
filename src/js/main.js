@@ -15,7 +15,7 @@ let cards = document.querySelectorAll('.main__teamCards-card');
 let tickets = document.querySelectorAll('.ticketCard');
 let cardState = '';
 
-
+// Maximum showed cards
 number = 15;
 const maxTick = () => {
     tickets.forEach((ticket, idx) => {
@@ -29,17 +29,19 @@ const maxTick = () => {
 maxTick();
 
 
-let moreBtn = document.querySelector('#more');
+// Function for show in page new cards
 
+let moreBtn = document.querySelector('#more');
 moreBtn.addEventListener('click', () => {
     number += 15;
     maxTick()
 });
 
-
+// Function of filter
 const filter = () => {
     cards.forEach((card) => {
         card.addEventListener('click', () => {
+            moreBtn.style.display = 'none';
             cardState = card.dataset.filter;
             number = 99999;
             maxTick();
@@ -82,8 +84,10 @@ const filter = () => {
     })
 };
 
+// Function for remove filter (on click image)
 const imageOfFilter = () => {
     teamImage.addEventListener('click', () => {
+        moreBtn.style.display = 'block';
         allTitle.textContent = 'All NHL Events';
         cardState = '';
         tickets.forEach((ticket) => {
