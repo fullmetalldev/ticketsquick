@@ -1,0 +1,48 @@
+.footer {
+  padding: 20px 0 0 0;
+
+  &__covid {
+    background-color: white;
+    border-top: 1px solid #ccc;
+    padding-top: 15px;
+
+    .container {
+      display: flex;
+      justify-content: center;
+
+      a {
+        cursor: pointer;
+        color: #555;
+        text-decoration: underline;
+        font-family: Montserrat, arial, sans-serif;
+      }
+    }
+  }
+
+  &__info {
+    background-color: black;
+    padding: 20px 0 10px 0;
+    margin-top: 10px;
+
+    .container {
+      display: flex;
+      justify-content: space-between;
+    }
+
+    &-title {
+      font-family: Montserrat, arial, sans-serif;
+      text-align: left;
+      color: #eeeeee;
+      font-size: 13px;
+    }
+
+    &-rights {
+      font-family: Montserrat, arial, sans-serif;
+      text-align: left;
+      color: #eeeeee;
+      font-size: 13px;
+    }
+  }
+
+}
+

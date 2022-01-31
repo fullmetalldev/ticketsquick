@@ -1,0 +1,20 @@
+.burgerBlock{
+  display: none;
+  right: -50px;
+  bottom: -100%px;
+  position: absolute;
+  flex-direction: column;
+  row-gap: 20px;
+  background-color: black;
+  padding: 10px 20px 10px 200px;
+  a{
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    color: #ffffff;
+    font-family: Montserrat, arial, sans-serif;
+  }
+}
+.activeBurger{
+  display: flex !important;
+}

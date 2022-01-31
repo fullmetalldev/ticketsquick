@@ -1,0 +1,286 @@
+@import "main.css";
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  user-select: none;
+  scroll-behavior: smooth;
+}
+
+.header {
+  width: 100%;
+  background-color: black;
+}
+.header .container {
+  position: relative;
+}
+.header__navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.header__navbar-title {
+  width: 0;
+  color: #ffffff;
+  font-family: Montserrat, arial, sans-serif;
+  font-style: italic;
+  font-weight: initial;
+  font-size: 38px;
+}
+.header__navbar-title span {
+  font-weight: bolder;
+}
+.header__navbar-rating {
+  display: flex;
+  align-items: center;
+  column-gap: 10px;
+}
+.header__navbar-rating span {
+  font-size: 11px;
+  opacity: 98%;
+  font-family: Montserrat, sans-serif;
+  font-style: inherit;
+  color: #ffffff;
+}
+.header__navbar .burgerBtn {
+  cursor: pointer;
+}
+
+.blockIMG {
+  display: flex;
+  background: url("../images/background.jpg") center/cover;
+}
+.blockIMG .greenBack {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 60, 0, 0.79);
+  width: 100%;
+  padding: 100px 0 20px 0;
+}
+.blockIMG .greenBack span {
+  font-size: 14px;
+  font-weight: bold;
+  color: #eee;
+  font-family: Montserrat, arial, sans-serif;
+}
+
+.container {
+  width: 100%;
+  max-width: 1180px;
+  margin: 0 auto;
+}
+
+.hide {
+  display: none !important;
+}
+
+.afterCardsBlock {
+  column-gap: 10px;
+  display: flex;
+  padding: 20px 0;
+}
+.afterCardsBlock__tickets {
+  width: 70%;
+}
+.afterCardsBlock__tickets-title {
+  font-weight: bolder;
+  font-size: 20px;
+  font-family: Montserrat, arial, sans-serif;
+  margin-left: 10px;
+  margin-bottom: 10px;
+}
+.afterCardsBlock .ticketCard {
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: solid 1px #fff;
+  background-color: #eee;
+  transition: 0.3s;
+  cursor: pointer;
+}
+.afterCardsBlock .ticketCard__txt {
+  display: flex;
+  column-gap: 20px;
+  color: #282828;
+}
+.afterCardsBlock .ticketCard__txt-date {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  row-gap: 10px;
+}
+.afterCardsBlock .ticketCard__txt-date_dt {
+  font-family: Montserrat, arial, sans-serif;
+  font-weight: bold;
+  font-size: inherit;
+}
+.afterCardsBlock .ticketCard__txt-date_time {
+  color: #666;
+  font-size: inherit;
+  font-family: Montserrat, arial, sans-serif;
+}
+.afterCardsBlock .ticketCard__txt-game {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.afterCardsBlock .ticketCard__txt-game_teams {
+  color: inherit;
+  font-weight: bold;
+  font-family: Montserrat, arial, sans-serif;
+  font-size: 18px;
+}
+.afterCardsBlock .ticketCard__txt-game_arena {
+  font-family: Montserrat, arial, sans-serif;
+  color: #666;
+  font-size: inherit;
+}
+.afterCardsBlock .ticketCard__btnRow-btn {
+  background-color: #43b722;
+  color: #fff;
+  font-size: 14px;
+  font-weight: bold;
+  border-radius: 4px;
+  border: none;
+  cursor: pointer;
+  width: 90px;
+  height: 32px;
+}
+.afterCardsBlock .ticketCard:hover {
+  transition: 0.3s;
+  background-color: #e8e8e8;
+}
+.afterCardsBlock .ticketCard:hover .ticketCard__btnRow-btn {
+  background-color: #666666;
+  transition: 0.3s;
+}
+
+.afterCardsBlock__column {
+  width: calc(30% - 10px);
+  display: flex;
+  flex-direction: column;
+}
+.afterCardsBlock__column .teamImage {
+  display: none;
+  width: 100%;
+  height: 200px;
+  margin-bottom: 10px;
+  cursor: pointer;
+  position: relative;
+  overflow: hidden;
+  border-radius: 10px;
+  margin: 10px;
+}
+.afterCardsBlock__column .teamImage span {
+  padding-top: 20px;
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  position: absolute;
+  bottom: -100%;
+  font-family: Montserrat, arial, sans-serif;
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;
+  color: #ffffff;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.65);
+}
+.afterCardsBlock__column .teamImage:hover span {
+  bottom: -60%;
+  transition: 0.3s;
+}
+
+.afterCardsBlock__guarant {
+  height: 320px;
+  border: 1px solid rgba(0, 0, 0, 0.15);
+  width: 100%;
+  padding: 20px;
+}
+.afterCardsBlock__guarant-title {
+  padding-bottom: 10px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.15);
+  font-family: Montserrat, arial, sans-serif;
+  font-size: 18px;
+}
+.afterCardsBlock__guarant-points {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  list-style-type: none;
+  justify-content: center;
+  row-gap: 15px;
+}
+.afterCardsBlock__guarant-points li {
+  font-size: 15px;
+  color: #282828;
+  font-family: Montserrat, arial, sans-serif;
+}
+
+.burgerBlock {
+  display: none;
+  right: -50px;
+  bottom: -100% px;
+  position: absolute;
+  flex-direction: column;
+  row-gap: 20px;
+  background-color: black;
+  padding: 10px 20px 10px 200px;
+}
+.burgerBlock a {
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: bold;
+  color: #ffffff;
+  font-family: Montserrat, arial, sans-serif;
+}
+
+.activeBurger {
+  display: flex !important;
+}
+
+.footer {
+  padding: 20px 0 0 0;
+}
+.footer__covid {
+  background-color: white;
+  border-top: 1px solid #ccc;
+  padding-top: 15px;
+}
+.footer__covid .container {
+  display: flex;
+  justify-content: center;
+}
+.footer__covid .container a {
+  cursor: pointer;
+  color: #555;
+  text-decoration: underline;
+  font-family: Montserrat, arial, sans-serif;
+}
+.footer__info {
+  background-color: black;
+  padding: 20px 0 10px 0;
+  margin-top: 10px;
+}
+.footer__info .container {
+  display: flex;
+  justify-content: space-between;
+}
+.footer__info-title {
+  font-family: Montserrat, arial, sans-serif;
+  text-align: left;
+  color: #eeeeee;
+  font-size: 13px;
+}
+.footer__info-rights {
+  font-family: Montserrat, arial, sans-serif;
+  text-align: left;
+  color: #eeeeee;
+  font-size: 13px;
+}
+
+/*# sourceMappingURL=style.css.map */

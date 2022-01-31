@@ -1,0 +1,87 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  user-select: none;
+  scroll-behavior: smooth;
+}
+
+.header {
+  width: 100%;
+  background-color: black;
+
+  .container {
+    position: relative;
+  }
+
+  &__navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    &-title {
+      width: 0;
+      color: #ffffff;
+      font-family: Montserrat, arial, sans-serif;
+      font-style: italic;
+      font-weight: initial;
+      font-size: 38px;
+
+      span {
+        font-weight: bolder;
+      }
+    }
+
+    &-rating {
+      display: flex;
+      align-items: center;
+      column-gap: 10px;
+
+      span {
+        font-size: 11px;
+        opacity: 98%;
+        font-family: Montserrat, sans-serif;
+        font-style: inherit;
+        color: #ffffff;
+      }
+    }
+
+    .burgerBtn {
+      cursor: pointer;
+    }
+  }
+}
+
+.blockIMG {
+  display: flex;
+  background: url("../images/background.jpg") center/cover;
+  .greenBack {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 60, 0, 0.79);
+    width: 100%;
+    padding: 100px 0 20px 0;
+    span {
+      font-size: 14px;
+      font-weight: bold;
+      color: #eee;
+      font-family: Montserrat, arial, sans-serif;
+    }
+  }
+}
+
+.container {
+  width: 100%;
+  max-width: 1180px;
+  margin: 0 auto;
+}
+
+.hide {
+  display: none !important;
+}
+
+@import "main.css";
+@import "afterCardsBlock";
+@import "burgerMenu";
+@import "footer";

@@ -1,0 +1,442 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>NHL tickets | Ticketsquick.net</title>
+    <link rel="stylesheet" href="src/styles/style.css">
+    <link rel="stylesheet" href="src/styles/adaptive.css">
+
+
+</head>
+<body>
+<header class="header">
+    <div class="container">
+        <nav class="header__navbar">
+            <h2 class="header__navbar-title">Tickets<span>Quick</span></h2>
+
+            <div class="header__navbar-rating">
+                <img alt="shopper arroved" src="src/images/shopperArroved.png">
+                <span>19,261 Ratings</span>
+            </div>
+
+            <svg class="burgerBtn" width="26" height="18" viewBox="0 0 18 12" fill="none"
+                 xmlns="http://www.w3.org/2000/svg">
+                <path d="M18 11C18 11.5523 17.5523 12 17 12H1C0.447716 12 0 11.5523 0 11V11C0 10.4477 0.447715 10 1 10H17C17.5523 10 18 10.4477 18 11V11ZM18 6C18 6.55228 17.5523 7 17 7H1C0.447716 7 0 6.55228 0 6V6C0 5.44772 0.447715 5 1 5H17C17.5523 5 18 5.44772 18 6V6ZM18 1C18 1.55228 17.5523 2 17 2H1C0.447716 2 0 1.55228 0 1V1C0 0.447715 0.447715 0 1 0H17C17.5523 0 18 0.447715 18 1V1Z"
+                      fill="white"/>
+            </svg>
+
+        </nav>
+
+        <div class="burgerBlock">
+            <a href="#main" onclick="document.querySelector('.burgerBlock').classList.remove('activeBurger')">Teams</a>
+            <a href="#tickets"
+               onclick="document.querySelector('.burgerBlock').classList.remove('activeBurger')">Tickets</a>
+        </div>
+    </div>
+
+
+</header>
+
+<div class="blockIMG">
+    <div class="greenBack">
+        <span>Resale market. Prices may above or below face value</span>
+    </div>
+</div>
+
+<main class="main" id="main">
+
+    <div class="container">
+
+        <section class="main__teamCards">
+
+            <div class="main__teamCards-card" data-filter="Montreal Canadiens">
+                <img src="src/images/hockkey_cards/529350.jpg" alt="Montreal Canadiens">
+                <div class="main__teamCards-card_title">Montreal Canadiens</div>
+            </div>
+
+            <div class="main__teamCards-card" data-filter="Vegas Golden Knights">
+                <img src="src/images/hockkey_cards/522127.jpg" alt="Vegas Golden Knights">
+                <div class="main__teamCards-card_title">Vegas Golden Knights</div>
+            </div>
+
+            <div class="main__teamCards-card" data-filter="Tampa Bay Lightning">
+                <img src="src/images/hockkey_cards/493064.jpg" alt="Tampa Bay Lightning">
+                <div class="main__teamCards-card_title">Tampa Bay Lightning</div>
+            </div>
+
+            <div class="main__teamCards-card" data-filter="New York Islanders">
+                <img src="src/images/hockkey_cards/529351.jpg" alt="New York Islanders">
+                <div class="main__teamCards-card_title">New York Islanders</div>
+            </div>
+
+            <div class="main__teamCards-card" data-filter="Washington Capitals">
+                <img src="src/images/hockkey_cards/522129.jpg" alt="Washington Capitals">
+                <div class="main__teamCards-card_title">Washington Capitals</div>
+            </div>
+
+
+            <div class="main__teamCards-card" data-filter="Florida Panthers">
+                <img src="src/images/hockkey_cards/522126.jpg" alt="Florida Panthers">
+                <div class="main__teamCards-card_title">Florida Panthers</div>
+            </div>
+
+            <div class="main__teamCards-card" data-filter="Pittsburgh Penguins">
+                <img src="src/images/hockkey_cards/524412.jpg" alt="Pittsburgh Penguins">
+                <div class="main__teamCards-card_title">Pittsburgh Penguins</div>
+            </div>
+
+            <div class="main__teamCards-card" data-filter="Nashville Predators">
+                <img src="src/images/hockkey_cards/488469.jpg" alt="Nashville Predators"/>
+                <div class="main__teamCards-card_title">Nashville Predators</div>
+            </div>
+
+        </section>
+
+        <section class="afterCardsBlock">
+
+            <div class="afterCardsBlock__tickets" id="tickets">
+
+                <h2 class="afterCardsBlock__tickets-title">
+                    All NHL Events
+                </h2>
+
+                <div class="ticketCard" data-filter="Ottawa Senators"
+                     data-filter2="Pittsburgh Penguins">
+                    <div class="ticketCard__txt">
+                        <div class="ticketCard__txt-date">
+                            <span class="ticketCard__txt-date_dt">Feb 10, 2022</span>
+                            <span class="ticketCard__txt-date_time">Sun 1:00 PM</span>
+                        </div>
+                        <div class="ticketCard__txt-game">
+                            <span class="ticketCard__txt-game_teams">Ottawa Senators vs. Pittsburgh Penguins</span>
+                            <span class="ticketCard__txt-game_arena">Canadian Tire Centre - Ottawa, ON</span>
+                        </div>
+                    </div>
+                    <div class="ticketCard__btnRow">
+                        <button class="ticketCard__btnRow-btn">TICKET</button>
+                        <span class="ticket__arrow">></span>
+                    </div>
+                </div>
+
+                <div class="ticketCard" data-filter="Colorado Avalanche"
+                     data-filter2="Tampa Bay Lightning">
+                    <div class="ticketCard__txt">
+                        <div class="ticketCard__txt-date">
+                            <span class="ticketCard__txt-date_dt">Feb 10, 2022</span>
+                            <span class="ticketCard__txt-date_time">Thu 7:00 PM</span>
+                        </div>
+                        <div class="ticketCard__txt-game">
+                            <span class="ticketCard__txt-game_teams">Colorado Avalanche vs. Tampa Bay Lightning</span>
+                            <span class="ticketCard__txt-game_arena">Ball Arena - Denver, CO</span>
+                        </div>
+                    </div>
+                    <div class="ticketCard__btnRow">
+                        <button class="ticketCard__btnRow-btn">TICKET</button>
+                        <span class="ticket__arrow">></span>
+                    </div>
+                </div>
+
+                <div class="ticketCard" data-filter="St. Louis Blues"
+                     data-filter2="New Jersey Devils">
+                    <div class="ticketCard__txt">
+                        <div class="ticketCard__txt-date">
+                            <span class="ticketCard__txt-date_dt">Feb 10, 2022</span>
+                            <span class="ticketCard__txt-date_time">Thu 7:00 PM</span>
+                        </div>
+                        <div class="ticketCard__txt-game">
+                            <span class="ticketCard__txt-game_teams">St. Louis Blues vs. New Jersey Devils</span>
+                            <span class="ticketCard__txt-game_arena">Enterprise Center - St. Louis, MO</span>
+                        </div>
+                    </div>
+                    <div class="ticketCard__btnRow">
+                        <button class="ticketCard__btnRow-btn">TICKET</button>
+                        <span class="ticket__arrow">></span>
+                    </div>
+                </div>
+
+                <div class="ticketCard" data-filter="Calgary Flames"
+                     data-filter2="Toronto Maple Leafs">
+                    <div class="ticketCard__txt">
+                        <div class="ticketCard__txt-date">
+                            <span class="ticketCard__txt-date_dt">Feb 10, 2022</span>
+                            <span class="ticketCard__txt-date_time">Thu 7:00 PM</span>
+                        </div>
+                        <div class="ticketCard__txt-game">
+                            <span class="ticketCard__txt-game_teams">Calgary Flames vs. Toronto Maple Leafs</span>
+                            <span class="ticketCard__txt-game_arena">Scotiabank Saddledome - Calgary, AB</span>
+                        </div>
+                    </div>
+                    <div class="ticketCard__btnRow">
+                        <button class="ticketCard__btnRow-btn">TICKET</button>
+                        <span class="ticket__arrow">></span>
+                    </div>
+                </div>
+
+                <div class="ticketCard" data-filter="Boston Bruins"
+                     data-filter2="Carolina Hurricanes">
+                    <div class="ticketCard__txt">
+                        <div class="ticketCard__txt-date">
+                            <span class="ticketCard__txt-date_dt">Feb 10, 2022</span>
+                            <span class="ticketCard__txt-date_time">Thu 7:00 PM</span>
+                        </div>
+                        <div class="ticketCard__txt-game">
+                            <span class="ticketCard__txt-game_teams">Boston Bruins vs. Carolina Hurricanes</span>
+                            <span class="ticketCard__txt-game_arena">TD Garden - Boston, MA</span>
+                        </div>
+                    </div>
+                    <div class="ticketCard__btnRow">
+                        <button class="ticketCard__btnRow-btn">TICKET</button>
+                        <span class="ticket__arrow">></span>
+                    </div>
+                </div>
+
+                <div class="ticketCard" data-filter="Buffalo Sabres"
+                     data-filter2="Columbus Blue Jackets">
+                    <div class="ticketCard__txt">
+                        <div class="ticketCard__txt-date">
+                            <span class="ticketCard__txt-date_dt">Feb 10, 2022</span>
+                            <span class="ticketCard__txt-date_time">Thu 7:00 PM</span>
+                        </div>
+                        <div class="ticketCard__txt-game">
+                            <span class="ticketCard__txt-game_teams">Buffalo Sabres vs. Columbus Blue Jackets</span>
+                            <span class="ticketCard__txt-game_arena">KeyBank Center - Buffalo, NY</span>
+                        </div>
+                    </div>
+                    <div class="ticketCard__btnRow">
+                        <button class="ticketCard__btnRow-btn">TICKET</button>
+                        <span class="ticket__arrow">></span>
+                    </div>
+                </div>
+
+
+                <div class="ticketCard" data-filter="Edmonton Oilers"
+                     data-filter2="New York Islanders">
+                    <div class="ticketCard__txt">
+                        <div class="ticketCard__txt-date">
+                            <span class="ticketCard__txt-date_dt">Feb 11, 2022</span>
+                            <span class="ticketCard__txt-date_time">Fri 7:00 PM</span>
+                        </div>
+                        <div class="ticketCard__txt-game">
+                            <span class="ticketCard__txt-game_teams">Edmonton Oilers vs. New York Islanders</span>
+                            <span class="ticketCard__txt-game_arena">Rogers Place - Edmonton, AB</span>
+                        </div>
+                    </div>
+                    <div class="ticketCard__btnRow">
+                        <button class="ticketCard__btnRow-btn">TICKET</button>
+                        <span class="ticket__arrow">></span>
+                    </div>
+                </div>
+
+                <div class="ticketCard" data-filter="Anaheim Ducks"
+                     data-filter2="Seattle Kraken">
+                    <div class="ticketCard__txt">
+                        <div class="ticketCard__txt-date">
+                            <span class="ticketCard__txt-date_dt">Feb 11, 2022</span>
+                            <span class="ticketCard__txt-date_time">Fri 7:00 PM</span>
+                        </div>
+                        <div class="ticketCard__txt-game">
+                            <span class="ticketCard__txt-game_teams">Anaheim Ducks vs. Seattle Kraken</span>
+                            <span class="ticketCard__txt-game_arena">Honda Center - Anaheim, CA</span>
+                        </div>
+                    </div>
+                    <div class="ticketCard__btnRow">
+                        <button class="ticketCard__btnRow-btn">TICKET</button>
+                        <span class="ticket__arrow">></span>
+                    </div>
+                </div>
+
+                <div class="ticketCard" data-filter="Dallas Stars"
+                     data-filter2="Winnipeg Jets">
+                    <div class="ticketCard__txt">
+                        <div class="ticketCard__txt-date">
+                            <span class="ticketCard__txt-date_dt">Feb 11, 2022</span>
+                            <span class="ticketCard__txt-date_time">Fri 7:30 PM</span>
+                        </div>
+                        <div class="ticketCard__txt-game">
+                            <span class="ticketCard__txt-game_teams">Dallas Stars vs. Winnipeg Jets</span>
+                            <span class="ticketCard__txt-game_arena">American Airlines Center - Dallas, TX</span>
+                        </div>
+                    </div>
+                    <div class="ticketCard__btnRow">
+                        <button class="ticketCard__btnRow-btn">TICKET</button>
+                        <span class="ticket__arrow">></span>
+                    </div>
+                </div>
+
+
+                <div class="ticketCard" data-filter="Dallas Stars"
+                     data-filter2="Winnipeg Jets">
+                    <div class="ticketCard__txt">
+                        <div class="ticketCard__txt-date">
+                            <span class="ticketCard__txt-date_dt">Feb 11, 2022</span>
+                            <span class="ticketCard__txt-date_time">Fri 7:30 PM</span>
+                        </div>
+                        <div class="ticketCard__txt-game">
+                            <span class="ticketCard__txt-game_teams">Dallas Stars vs. Winnipeg Jets</span>
+                            <span class="ticketCard__txt-game_arena">American Airlines Center - Dallas, TX</span>
+                        </div>
+                    </div>
+                    <div class="ticketCard__btnRow">
+                        <button class="ticketCard__btnRow-btn">TICKET</button>
+                        <span class="ticket__arrow">></span>
+                    </div>
+                </div>
+
+                <div class="ticketCard" data-filter="Arizona Coyotes"
+                     data-filter2="Tampa Bay Lightning">
+                    <div class="ticketCard__txt">
+                        <div class="ticketCard__txt-date">
+                            <span class="ticketCard__txt-date_dt">Feb 11, 2022</span>
+                            <span class="ticketCard__txt-date_time">Fri 7:30 PM</span>
+                        </div>
+                        <div class="ticketCard__txt-game">
+                            <span class="ticketCard__txt-game_teams">Arizona Coyotes vs. Tampa Bay Lightning</span>
+                            <span class="ticketCard__txt-game_arena">Gila River Arena - Glendale, AZ</span>
+                        </div>
+                    </div>
+                    <div class="ticketCard__btnRow">
+                        <button class="ticketCard__btnRow-btn">TICKET</button>
+                        <span class="ticket__arrow">></span>
+                    </div>
+                </div>
+
+                <div class="ticketCard" data-filter="Detroit Red Wings"
+                     data-filter2="Philadelphia Flyers">
+                    <div class="ticketCard__txt">
+                        <div class="ticketCard__txt-date">
+                            <span class="ticketCard__txt-date_dt">Feb 12, 2022</span>
+                            <span class="ticketCard__txt-date_time">Sat 12:00 PM</span>
+                        </div>
+                        <div class="ticketCard__txt-game">
+                            <span class="ticketCard__txt-game_teams">Detroit Red Wings vs. Philadelphia Flyers</span>
+                            <span class="ticketCard__txt-game_arena">Little Caesars Arena - Detroit, MI</span>
+                        </div>
+                    </div>
+                    <div class="ticketCard__btnRow">
+                        <button class="ticketCard__btnRow-btn">TICKET</button>
+                        <span class="ticket__arrow">></span>
+                    </div>
+                </div>
+
+                <div class="ticketCard" data-filter="Ottawa Senators"
+                     data-filter2="Boston Bruins">
+                    <div class="ticketCard__txt">
+                        <div class="ticketCard__txt-date">
+                            <span class="ticketCard__txt-date_dt">Feb 12, 2022</span>
+                            <span class="ticketCard__txt-date_time">Sat 12:30 PM</span>
+                        </div>
+                        <div class="ticketCard__txt-game">
+                            <span class="ticketCard__txt-game_teams">Ottawa Senators vs. Boston Bruins</span>
+                            <span class="ticketCard__txt-game_arena">Canadian Tire Centre - Ottawa, ON</span>
+                        </div>
+                    </div>
+                    <div class="ticketCard__btnRow">
+                        <button class="ticketCard__btnRow-btn">TICKET</button>
+                        <span class="ticket__arrow">></span>
+                    </div>
+                </div>
+
+                <div class="ticketCard" data-filter="Vancouver Canucks"
+                     data-filter2="Toronto Maple Leafs">
+                    <div class="ticketCard__txt">
+                        <div class="ticketCard__txt-date">
+                            <span class="ticketCard__txt-date_dt">Feb 12, 2022</span>
+                            <span class="ticketCard__txt-date_time">Sat 4:00 PM</span>
+                        </div>
+                        <div class="ticketCard__txt-game">
+                            <span class="ticketCard__txt-game_teams">Vancouver Canucks vs. Toronto Maple Leafs</span>
+                            <span class="ticketCard__txt-game_arena">Rogers Arena - Vancouver, BC</span>
+                        </div>
+                    </div>
+                    <div class="ticketCard__btnRow">
+                        <button class="ticketCard__btnRow-btn">TICKET</button>
+                        <span class="ticket__arrow">></span>
+                    </div>
+                </div>
+
+
+
+                <div class="ticketCard" data-filter="Winnipeg Jets"
+                     data-filter2="Nashville Predators">
+                    <div class="ticketCard__txt">
+                        <div class="ticketCard__txt-date">
+                            <span class="ticketCard__txt-date_dt">Feb 12, 2022</span>
+                            <span class="ticketCard__txt-date_time">Sat 6:00 PM</span>
+                        </div>
+                        <div class="ticketCard__txt-game">
+                            <span class="ticketCard__txt-game_teams">Nashville Predators vs. Winnipeg Jets</span>
+                            <span class="ticketCard__txt-game_arena">Bridgestone Arena - Nashville, TN</span>
+                        </div>
+                    </div>
+                    <div class="ticketCard__btnRow">
+                        <button class="ticketCard__btnRow-btn">TICKET</button>
+                        <span class="ticket__arrow">></span>
+                    </div>
+                </div>
+                <!--container's end-->
+            </div>
+
+            <div class="afterCardsBlock__column">
+
+                <div class="teamImage" id="teamImage">
+                    <span>Remove Filter</span>
+                </div>
+
+                <div class="afterCardsBlock__guarant">
+                    <h2 class="afterCardsBlock__guarant-title">Purchase Tickets Worry Free With Our 100% Guarantee.</h2>
+                    <ul class="afterCardsBlock__guarant-points">
+                        <li>&#10004; Same tickets as you ordered, or better.</li>
+                        <li>&#10004; Tickets will arrive before the event.</li>
+                        <li>&#10004; Tickets will be valid for entry.</li>
+                        <li>&#10004; Refunds for cancelled events.</li>
+                    </ul>
+
+                </div>
+
+            </div>
+
+
+        </section>
+
+
+    </div>
+
+</main>
+
+
+<footer class="footer">
+
+    <section class="footer__covid">
+        <div class="container">
+            <a class="covid19_btn" href="src/covid19/covid19.html">Coronavirus Update</a>
+        </div>
+    </section>
+
+    <section class="footer__info">
+
+        <div class="container">
+            <span class="footer__info-title">We are a resale marketplace, not a box office or venue.<br>
+            Ticket prices may be below or above face value.</span>
+
+            <div class="footer__info-payCards">
+                <img src="src/images/paycards/visa.png" alt="visa">
+                <img src="src/images/paycards/mastercard.png" alt="mastercard">
+                <img src="src/images/paycards/amex.png" alt="amex">
+                <img src="src/images/paycards/dinersclub.png" alt="discover">
+                <img src="src/images/paycards/dinersclub.png" alt="dinersclub">
+                <img src="src/images/paycards/paypal.png" alt="paypal">
+            </div>
+
+            <span class="footer__info-rights">© 2020 All rights reserved</span>
+        </div>
+    </section>
+
+</footer>
+
+
+<script src="src/js/main.js"></script>
+</body>
+</html>

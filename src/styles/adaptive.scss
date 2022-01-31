@@ -1,0 +1,179 @@
+.ticket__arrow{
+  display: none;
+}
+
+
+@media (max-width: 1280px) {
+  .burgerBlock{
+    right: 0;
+  }
+  
+}
+
+@media (max-width: 1190px) {
+  .footer__info .container{
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .header__navbar{
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .afterCardsBlock{
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}
+
+@media (max-width: 900px) {
+  .afterCardsBlock__guarant{
+    margin-top: 50px;
+  }
+  .header__navbar-title{
+    font-size: 12px;
+    width: initial;
+  }
+  .footer__info-rights{
+    font-size: 10px;
+  }
+  .footer__info-title{
+    font-size: 10px;
+  }
+  .footer__info .container{
+    align-items: flex-end;
+  }
+  .main__teamCards-card_title{
+    font-size: initial;
+  }
+  .afterCardsBlock{
+    flex-flow: wrap row;
+  }
+  .afterCardsBlock__tickets{
+    width: 100%;
+  }
+  .afterCardsBlock__column{
+    width: 100%;
+  }
+  
+}
+
+@media (max-width: 768px) {
+  .afterCardsBlock .ticketCard__txt-date{
+    row-gap: 0;
+    justify-content: center;
+  }
+  .afterCardsBlock .ticketCard__txt-game{
+    justify-content: center;
+  }
+  .afterCardsBlock .ticketCard__txt-date_dt{
+    font-size: 13px;
+  }
+  .afterCardsBlock .ticketCard__txt-game_teams{
+    font-size: 13px;
+  }
+  .afterCardsBlock .ticketCard__txt-game_arena{
+    font-size: 11px;
+  }
+  .afterCardsBlock .ticketCard__txt-date_time{
+    font-size: 11px;
+  }
+  .header__navbar{
+    padding: 10px 20px;
+  }
+  .burgerBlock a{
+    font-size: 16px;
+  }
+  .footer__info .container{
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    row-gap: 10px;
+  }
+  .blockIMG .greenBack span{
+    text-align: center;
+  }
+  .main__teamCards-card_title{
+    font-size: 16px;
+  }
+  .main{
+    padding: 20px;
+  }
+  .main__teamCards-card{
+    width: calc(50% - 10px);
+  }
+}
+
+@media (max-width: 600px) {
+  .ticketCard__btnRow-btn{
+    display: none;
+  }
+  .ticket__arrow{
+    font-size: 18px;
+    color: #2259ff;
+    display: block;
+  }
+  .afterCardsBlock .ticketCard__txt-game_arena{
+    font-size: 8px;
+  }
+  .afterCardsBlock .ticketCard__txt-game_teams{
+    font-size: 10px;
+  }
+  .afterCardsBlock .ticketCard__btnRow-btn{
+    font-size: 10px;
+    width: auto;
+    padding: 5px 10px;
+    height: auto;
+  }
+  .afterCardsBlock .ticketCard__txt{
+    column-gap: 8px;
+  }
+  .afterCardsBlock .ticketCard__txt-date_time{
+    font-size: 8px;
+  }
+  .afterCardsBlock .ticketCard__txt-date_dt{
+    font-size: 10px;
+  }
+  .burgerBlock a{
+    font-size: 14px;
+  }
+  .header__navbar .burgerBtn{
+    width: 40px;
+  }
+  .header__navbar{
+    padding: 15px 30px;
+  }
+  .blockIMG .greenBack{
+    padding: 50px 10px 20px;
+  }
+  .header__navbar-rating{
+    img{
+      width: 70px;
+    }
+    span{
+      font-size: 10px;
+    }
+  }
+}
+
+@media (max-width: 425px) {
+  .main__teamCards-card_title{
+    font-size: 13px;
+  }
+  .afterCardsBlock .ticketCard__txt-game_arena{
+    font-size: 8px;
+  }
+  .afterCardsBlock .ticketCard__txt-game_teams{
+    font-size: 8px;
+  }
+  .afterCardsBlock .ticketCard__btnRow-btn{
+    font-size: 8px;
+    padding: 5px 10px;
+  }
+  .afterCardsBlock .ticketCard__txt-date_time{
+    font-size: 8px;
+  }
+  .afterCardsBlock .ticketCard__txt-date_dt{
+    font-size: 8px;
+  }
+  
+}
