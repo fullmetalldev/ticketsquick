@@ -81,6 +81,18 @@
   display: none !important;
 }
 
+#more{
+  margin-top: 10px;
+  width: 100%;
+}
+@media (max-width: 600px) {
+  #more{
+    display: block;
+    padding: 8px 0;
+  }
+  
+}
+
 @import "main.css";
 @import "afterCardsBlock";
 @import "burgerMenu";
