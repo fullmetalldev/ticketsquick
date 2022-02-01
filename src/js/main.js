@@ -33,7 +33,7 @@ maxTick();
 
 let moreBtn = document.querySelector('#more');
 moreBtn.addEventListener('click', () => {
-    number += 15;
+    number += 20;
     maxTick()
 });
 

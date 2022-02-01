@@ -4,6 +4,7 @@
     <list default="true" id="87f8fe86-bd94-4777-822c-26934504584e" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/main.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,7 +64,8 @@
       <workItem from="1643615700915" duration="2625000" />
       <workItem from="1643621814425" duration="2144000" />
       <workItem from="1643624630434" duration="3660000" />
-      <workItem from="1643632222194" duration="17001000" />
+      <workItem from="1643632222194" duration="17086000" />
+      <workItem from="1643696556420" duration="5180000" />
     </task>
     <servers />
   </component>
@@ -79,6 +81,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="498" height="446" key="SwitcherDM/0.0.1920.1040@0.0.1920.1040" timestamp="1643636225034" />
+    <state x="616" y="235" key="run.anything.popup" timestamp="1643701014053">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="616" y="235" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1643701014053" />
     <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1643527281739">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
